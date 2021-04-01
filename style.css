@@ -106,3 +106,7 @@
 .ex-5-square {
     transition: 1s;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
