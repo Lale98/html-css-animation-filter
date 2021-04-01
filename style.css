@@ -138,6 +138,7 @@
 .ex-10-icon {
     animation-name: rotate;
     animation-duration: 0.5s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 @keyframes rotate {
