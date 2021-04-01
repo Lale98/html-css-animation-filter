@@ -204,3 +204,67 @@
         right: 20%;
     }
 }
+
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: spintop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes spintop {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    25% {
+        top: -10px;
+        left: 90%;
+    }
+    50% {
+        top: 60px;
+        left: 90%;
+    }
+    75% {
+        top: 60px;
+        left: -10%;
+    }
+    90% {
+        top: -10px;
+        left: -10%;
+    }
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: spinbottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes spinbottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    25% {
+        bottom: -10px;
+        right: 90%;
+    }
+    50% {
+        bottom: 60px;
+        right: 90%;
+    }
+    75% {
+        bottom: 60px;
+        right: -10%;
+    }
+    90% {
+        bottom: -10%;
+        right: -10%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
