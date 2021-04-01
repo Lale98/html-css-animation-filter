@@ -67,3 +67,12 @@
     width: 60px;
     height: 20px;
 }
+
+/* Effetti/Animazioni */
+.ex-1-square:hover {
+    background-color: red;
+}
+.ex-1-square {
+    transition: background-color 1s ease-in-out;
+}
+
