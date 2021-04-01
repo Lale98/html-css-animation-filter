@@ -76,3 +76,9 @@
     transition: background-color 1s ease-in-out;
 }
 
+.ex-2-square:active {
+    width: 100%;
+}
+.ex-2-square {
+    transition: 2s;
+}
